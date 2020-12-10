@@ -1,0 +1,32 @@
+{
+  "name": "depcheck-detector-package-name",
+  "version": "1.0.0",
+  "description": "A depcheck detector that detects packages from a tagged template literal",
+  "repository": "dword-design/depcheck-detector-package-name",
+  "license": "MIT",
+  "author": "Sebastian Landwehr <info@dword-design.de>",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "base clean",
+    "commit": "base commit",
+    "dev": "base dev",
+    "lint": "base lint",
+    "prepare": "base prepare",
+    "prepublishOnly": "base prepublishOnly",
+    "test": "base test"
+  },
+  "devDependencies": {
+    "@dword-design/base": "^6.28.4",
+    "@dword-design/functions": "^1.1.5",
+    "depcheck": "dword-design/depcheck#fork",
+    "execa": "^5.0.0",
+    "output-files": "^1.1.19",
+    "with-local-tmp-dir": "^2.2.13"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
