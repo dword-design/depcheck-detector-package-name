@@ -34,7 +34,7 @@
 <!-- /BADGES -->
 
 <!-- DESCRIPTION/ -->
-A depcheck detector that detects packages from a tagged template literal
+A depcheck detector that detects packages from a tagged template literal.
 <!-- /DESCRIPTION -->
 
 <!-- INSTALL/ -->
