@@ -1,7 +1,7 @@
 {
   "name": "depcheck-detector-package-name",
   "version": "1.0.3",
-  "description": "A depcheck detector that detects packages from a tagged template literal",
+  "description": "A depcheck detector that detects packages from a tagged template literal.",
   "repository": "dword-design/depcheck-detector-package-name",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@dword-design.de>",
