@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/dword-design/depcheck-detector-package-name/compare/v1.0.5...v1.0.6) (2021-03-22)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#6](https://github.com/dword-design/depcheck-detector-package-name/issues/6)) ([5c28374](https://github.com/dword-design/depcheck-detector-package-name/commit/5c28374617c44c5965225170ddc1371d7f608055))
+
 ## [1.0.5](https://github.com/dword-design/depcheck-detector-package-name/compare/v1.0.4...v1.0.5) (2021-03-17)
 
 
