@@ -18,5 +18,6 @@ export default node => {
     default:
       break
   }
+
   return []
 }
