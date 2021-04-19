@@ -24,7 +24,7 @@
     "@dword-design/functions": "^3.0.0",
     "depcheck": "dword-design/depcheck#fork",
     "execa": "^5.0.0",
-    "output-files": "^1.1.19",
+    "output-files": "^1.1.24",
     "with-local-tmp-dir": "^2.2.13"
   },
   "publishConfig": {
