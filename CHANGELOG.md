@@ -1,3 +1,10 @@
+## [1.0.10](https://github.com/dword-design/depcheck-detector-package-name/compare/v1.0.9...v1.0.10) (2021-04-26)
+
+
+### Bug Fixes
+
+* update dependency with-local-tmp-dir to v3 ([#16](https://github.com/dword-design/depcheck-detector-package-name/issues/16)) ([c3f5d5c](https://github.com/dword-design/depcheck-detector-package-name/commit/c3f5d5c1c155830c9e2d6c2e55cf30cc962035f7))
+
 ## [1.0.9](https://github.com/dword-design/depcheck-detector-package-name/compare/v1.0.8...v1.0.9) (2021-04-12)
 
 
