@@ -1,3 +1,18 @@
+# [2.0.0](https://github.com/dword-design/depcheck-detector-package-name/compare/v1.0.10...v2.0.0) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v8 ([#19](https://github.com/dword-design/depcheck-detector-package-name/issues/19)) ([f73aeda](https://github.com/dword-design/depcheck-detector-package-name/commit/f73aeda4ffa54078a4543309a0cbb0e1f58d238f))
+
+
+### BREAKING CHANGES
+
+* require Node.js >= 12
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Sebastian Landwehr <info@dword-design.de>
+
 ## [1.0.10](https://github.com/dword-design/depcheck-detector-package-name/compare/v1.0.9...v1.0.10) (2021-04-26)
 
 
