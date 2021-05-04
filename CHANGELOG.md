@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/dword-design/depcheck-detector-package-name/compare/v2.0.2...v2.0.3) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v4 ([#20](https://github.com/dword-design/depcheck-detector-package-name/issues/20)) ([7e1f837](https://github.com/dword-design/depcheck-detector-package-name/commit/7e1f83743d87db724a32665e25d3d24af1e7620f))
+
 ## [2.0.2](https://github.com/dword-design/depcheck-detector-package-name/compare/v2.0.1...v2.0.2) (2021-05-04)
 
 
