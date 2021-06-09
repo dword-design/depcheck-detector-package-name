@@ -1,6 +1,6 @@
 {
   "name": "depcheck-detector-package-name",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "A depcheck detector that detects packages from a tagged template literal.",
   "repository": "dword-design/depcheck-detector-package-name",
   "funding": "https://www.buymeacoffee.com/dword",
