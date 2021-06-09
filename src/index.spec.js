@@ -1,66 +1,41 @@
 import { endent, mapValues } from '@dword-design/functions'
-import execa from 'execa'
-import outputFiles from 'output-files'
+import depcheck from 'depcheck'
+import { outputFile } from 'fs-extra'
+import P from 'path'
 import withLocalTmpDir from 'with-local-tmp-dir'
 
-const runTest = files => () =>
+import self from '.'
+
+const runTest = test => () =>
   withLocalTmpDir(async () => {
-    await outputFiles({
-      'depcheck.config.js': endent`
-        const self = require('../src')
-        module.exports = {
-          detectors: [
-            self,
-          ],
-        }
-      `,
-      ...files,
+    await outputFile(P.join('src', 'index.js'), test)
+
+    const result = await depcheck('.', {
+      detectors: [self],
+      package: {
+        dependencies: {
+          foo: '^1.0.0',
+        },
+      },
     })
-    await execa.command('depcheck --config depcheck.config.js')
+    expect(result.dependencies).toEqual([])
   })
 
 export default [
-  {
-    'package.json': endent`
-      {
-        "dependencies": {
-          "foo": "^1.0.0"
-        }
-      }
-    `,
-    'src/index.js': endent`
-      import packageName from 'depcheck-package-name'
+  endent`
+    import packageName from 'depcheck-package-name'
 
-      packageName\`foo\`
-    `,
-  },
-  {
-    'package.json': endent`
-      {
-        "dependencies": {
-          "foo": "^1.0.0"
-        }
-      }
-    `,
-    'src/index.js': endent`
-      import packageName from 'depcheck-package-name'
+    packageName\`foo\`
+  `,
+  endent`
+    import packageName from 'depcheck-package-name'
 
-      const bar = 1
-      packageName\`foo\${bar}\`
-    `,
-  },
-  {
-    'package.json': endent`
-      {
-        "dependencies": {
-          "foo": "^1.0.0"
-        }
-      }
-    `,
-    'src/index.js': endent`
-      import depcheckPackageName from 'depcheck-package-name'
+    const bar = 1
+    packageName\`foo\${bar}\`
+  `,
+  endent`
+    import depcheckPackageName from 'depcheck-package-name'
 
-      depcheckPackageName\`foo\`
-    `,
-  },
+    depcheckPackageName\`foo\`
+  `,
 ] |> mapValues(runTest)
