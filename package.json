@@ -3,7 +3,7 @@
   "version": "2.0.6",
   "description": "A depcheck detector that detects packages from a tagged template literal.",
   "repository": "dword-design/depcheck-detector-package-name",
-  "funding": "https://www.buymeacoffee.com/dword",
+  "funding": "https://github.com/sponsors/dword-design",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
   "main": "dist/index.js",
