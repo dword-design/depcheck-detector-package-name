@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/dword-design/depcheck-detector-package-name/compare/v2.0.8...v3.0.0) (2022-12-04)
+
+
+### Bug Fixes
+
+* drop node.js 12, move to esm ([#74](https://github.com/dword-design/depcheck-detector-package-name/issues/74)) ([cb02874](https://github.com/dword-design/depcheck-detector-package-name/commit/cb02874c5881f4bc5f6a7f55b49b7dfde6f60389))
+
+
+### BREAKING CHANGES
+
+* drop node.js 12, move to esm
+
 ## [2.0.8](https://github.com/dword-design/depcheck-detector-package-name/compare/v2.0.7...v2.0.8) (2021-07-20)
 
 
