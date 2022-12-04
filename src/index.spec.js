@@ -4,7 +4,7 @@ import { outputFile } from 'fs-extra'
 import P from 'path'
 import withLocalTmpDir from 'with-local-tmp-dir'
 
-import self from '.'
+import self from './index.js'
 
 const runTest = test => () =>
   withLocalTmpDir(async () => {
