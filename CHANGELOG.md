@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/dword-design/depcheck-detector-package-name/compare/v3.0.4...v4.0.0) (2025-12-11)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#89](https://github.com/dword-design/depcheck-detector-package-name/issues/89)) ([41f6ff9](https://github.com/dword-design/depcheck-detector-package-name/commit/41f6ff9099c02f4976c2839e47ffac3f7b85dfc7))
+
+
+### BREAKING CHANGES
+
+* node >= 22
+
 ## [3.0.4](https://github.com/dword-design/depcheck-detector-package-name/compare/v3.0.3...v3.0.4) (2023-10-17)
 
 
